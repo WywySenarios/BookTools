@@ -1,0 +1,1 @@
+contractions don't work in this thing because apostrophes are not accepted by the program. Very unfortunate, but that's a thing.
