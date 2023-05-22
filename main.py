@@ -22,7 +22,7 @@ def analyze(data):
     data = open("texts/" + data, "rb")
     data = data.read()
     data = data.decode("UTF-8")
-    splice = re.findall("[a-zA-Z]+'{0,1}[a-zA-Z]*", data)
+    splice = re.findall("[a-zA-Z]+'?[a-zA-Z]*", data)
     for x in splice:
         x = x.lower()
         if items.get(x) == None:
